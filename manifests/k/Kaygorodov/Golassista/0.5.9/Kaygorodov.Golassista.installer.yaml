@@ -3,9 +3,9 @@
 # ⚠️ InstallerUrl обязан быть НЕИЗМЕНЯЕМЫМ. winget привязывает хеш к версии, и
 # если по адресу однажды окажется другой файл, установка у всех сломается с
 # ошибкой контрольной суммы. Поэтому ссылка версионная
-# (/dl/Golassista-Setup-0.5.8.exe), а не «всегда свежая» /dl/Golassista-Setup.exe.
+# (/dl/Golassista-Setup-0.5.9.exe), а не «всегда свежая» /dl/Golassista-Setup.exe.
 PackageIdentifier: Kaygorodov.Golassista
-PackageVersion: 0.5.8
+PackageVersion: 0.5.9
 MinimumOSVersion: 10.0.17763.0
 InstallerType: inno
 Scope: user
@@ -19,11 +19,11 @@ InstallerSwitches:
 UpgradeBehavior: install
 # Код продукта Inno Setup: AppId из golassista.iss плюс суффикс _is1
 ProductCode: '{7C3B5A10-9D2E-4F6B-A1C4-0123456789AB}_is1'
-ReleaseDate: 2026-10-01
+ReleaseDate: 2026-10-03
 Installers:
   - Architecture: x64
     InstallerLocale: ru-RU
-    InstallerUrl: https://llmcase.ru/dl/Golassista-Setup-0.5.8.exe
-    InstallerSha256: 253744347E7669C94FBB60EEAB8DA9D5C6EF5571E453AC36C88BB368F3D89ABC
+    InstallerUrl: https://llmcase.ru/dl/Golassista-Setup-0.5.9.exe
+    InstallerSha256: A2287A2247083F0C3097F7B07B367C1CA4828CFB76934EE79E9B4762D90E7EC2
 ManifestType: installer
 ManifestVersion: 1.6.0
